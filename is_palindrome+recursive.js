@@ -1,3 +1,4 @@
+/// Normal
 const is_palindrome = (s) => {
     
 
@@ -14,7 +15,8 @@ const is_palindrome = (s) => {
     return true
 }
 
-//recursive
+
+/// Recursive
 const is_palindrome = (LOL) => {
     if (LOL.length === 0 || LOL.length === 1) {
         //for LOL = "a" or ""
